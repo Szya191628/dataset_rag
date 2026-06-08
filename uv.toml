@@ -1,0 +1,17 @@
+# uv 配置文件 - 使用国内镜像源加速下载
+
+[[index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+# 启用缓存
+cache = true
+
+# 并行下载
+concurrent-downloads = 8
+
+# 连接超时
+connect-timeout = 30
+
+# 下载超时  
+download-timeout = 300
